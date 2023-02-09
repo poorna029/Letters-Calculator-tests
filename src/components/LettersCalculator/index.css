@@ -1,0 +1,99 @@
+/* Write your code here. */
+
+.button {
+  display: block;
+  align-self: flex-start;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.countvalue {
+  color: black;
+  font-size: 20px;
+}
+
+h1,
+p {
+  color: white;
+  font-family: 'Roboto';
+}
+
+@media (max-width: 768px) {
+  .first {
+    margin-top: 0px;
+    order: 2;
+    margin-bottom: 20%;
+  }
+  .second {
+    order: -1;
+  }
+  .bg {
+    background-image: linear-gradient(to right, #219a6f, #1d976c, #93f9b9);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  .input {
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    align-self: center;
+    outline: none;
+    margin: 5px 0px;
+    height: 35px;
+  }
+  .mage {
+    width: 60vw;
+    height: 50vh;
+    margin: 10% 0px;
+    margin-left: -150px;
+  }
+}
+
+@media (min-width: 769px) {
+  .input {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 40%;
+    height: 50%;
+    padding: 7px;
+    outline: none;
+    margin: 10px 0px;
+    align-self: start;
+  }
+  .bg {
+    background-image: linear-gradient(to right, #219a6f, #1d976c, #93f9b9);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+  }
+  .first {
+    margin-top: 0px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .second {
+    order: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mage {
+    width: 70%;
+    height: 60%;
+    margin: 0px;
+    margin-top: 10%;
+  }
+}
